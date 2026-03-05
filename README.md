@@ -15,6 +15,12 @@ Large Language Models are becoming increasingly popular to generate clinical doc
 
 This pilot study evaluated whether structured clinical input combined with constrained prompt can allow AI generated clinic letters to accurately transmit clinical reasoning between clinicians while minimising safety risks.
 
+## At a glance
+- **Cases:** 5 simulated diabetes follow-up scenarios  
+- **Model:** ChatGPT 5.2 Thinking  
+- **Outputs:** GP clinic letters (AI vs clinician gold standard)  
+- **Evaluation:** safety, omissions/commissions, intent preservation, delayed re-review (T1)  
+
 ## Research Question
 Can an AI model safely generate clinic letters intended for patient’s GP following an outpatient clinic visit such that another clinician can understand:
 -	What happened in the clinic
@@ -29,6 +35,14 @@ Can an AI model safely generate clinic letters intended for patient’s GP follo
 **AI letters**- One AI generated clinic letter per case using standardised prompt and fixed model settings
 **Evaluation timepoints**- T0- initial evaluation of letters T1- delayed evaluation of same letter a 3-day washout period (single rater delayed review)
 **Evaluator**- Senior clinician (single reviewer)
+
+## Key Findings
+-	AI generated letters preserved clinician intent, patient safety information and GP action plans in this pilot study
+-	Ai letters required minor edits in 60% of the cases compared to human letters (20%)
+-	One Commission error and one omission error were identified
+-	No moderate or serious safety issues detected
+-	Delayed re-evaluation showed high intra rater stability with only one error reclassification after re-examination of the source data
+Overall, with structured prompt and structured clinical data set, AI generated clinic letters were able to transmit core clinical reasoning between clinicians in this pilot dataset.
 
 ## AI generation
 **Model**- ChatGPT 5.2 thinking
@@ -66,14 +80,6 @@ Standardised prompt used for AI letter generation
 AI generated clinic letters
 Evaluation sheet for evaluation of gold standard letters and AI generated letters across two time points (T0and T1)
 Results table comparing AI vs gold standard letters and intra rater stability analysis
-
-## Key Findings
--	AI generated letters preserved clinician intent, patient safety information and GP action plans in this pilot study
--	Ai letters required minor edits in 60% of the cases compared to human letters (20%)
--	One Commission error and one omission error were identified
--	No moderate or serious safety issues detected
--	Delayed re-evaluation showed high intra rater stability with only one error reclassification after re-examination of the source data
-Overall, with structured prompt and structured clinical data set, AI generated clinic letters were able to transmit core clinical reasoning between clinicians in this pilot dataset.
 
 ## Limitations
 This pilot study used a small number of simulated cases and a single clinician evaluator. These finding therefore represent a methodological exploration rather than performance assessment of AI-generated clinical documentation.  
