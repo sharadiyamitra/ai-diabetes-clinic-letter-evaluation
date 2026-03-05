@@ -82,6 +82,7 @@ Overall, with structured prompt and structured clinical data set, AI generated c
 
 ## AI generation
 **Model**- ChatGPT 5.2 thinking
+
 Prompt design:
 -	Structured clinic documentation provided as input
 -	Fixed output structure similar to gold standard letter
@@ -89,14 +90,14 @@ Prompt design:
 
 ## Evaluation Framework
 Each AI letter was assessed for:
--Clarity of the information
--GP usability (whether the letter can be used for GP communication and if action plan for GP is clear)
--missing critical clinical information or patient safety information
+- Clarity of the information
+- GP usability (whether the letter can be used for GP communication and if action plan for GP is clear)
+- missing critical clinical information or patient safety information
 - preservation of Clinicians' intent 
--Omission, commission, hallucination error
--Clarity of follow up plan and responsibility allocation
--Interpretation drift
--Potential harm for patients if errors are actioned
+- Omission, commission, hallucination error
+- Clarity of follow up plan and responsibility allocation
+- Interpretation drift
+- Potential harm for patients if errors are actioned
 
 ## Repository Structure
 -	Protocol- study description and methodology
@@ -122,7 +123,7 @@ This pilot study used a small number of simulated cases and a single clinician e
 
 ## Ethical/ Data statement
 -	No real patient data
--	- simulated cases used inspired by real life complexities and caseload
+-	simulated cases used inspired by real life complexities and caseload
 -	This work is a pilot study of documentation safety and fidelity
 
 ## Reproducibility
