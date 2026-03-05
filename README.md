@@ -36,6 +36,42 @@ Can an AI model safely generate clinic letters intended for patient’s GP follo
 **Evaluation timepoints**- T0- initial evaluation of letters T1- delayed evaluation of same letter a 3-day washout period (single rater delayed review)
 **Evaluator**- Senior clinician (single reviewer)
 
+## Study Workflow
+
+```mermaid
+flowchart TD
+
+A[Simulated Diabetes Clinic Case Vignettes] --> B[Structured Clinic Documentation]
+
+B --> C[AI Prompt Input]
+
+C --> D[ChatGPT 5.2 Thinking Generates Clinic Letter]
+
+D --> E[AI Generated Clinic Letter]
+
+A --> F[Clinician Writes Gold Standard Letter]
+
+E --> G[Evaluation Framework]
+
+F --> G
+
+G --> H[T0 Evaluation\nInitial Review]
+
+H --> I[T1 Evaluation\nDelayed Review After 3 Days]
+
+I --> J[Error Classification]
+
+J --> K[Omission Errors]
+J --> L[Commission Errors]
+J --> M[Hallucination Errors]
+
+I --> N[Assessment of Clinical Intent Preservation]
+I --> O[GP Usability Assessment]
+I --> P[Safety Risk Assessment]
+
+P --> Q[Results Summary and Analysis]
+```
+
 ## Key Findings
 -	AI generated letters preserved clinician intent, patient safety information and GP action plans in this pilot study
 -	Ai letters required minor edits in 60% of the cases compared to human letters (20%)
