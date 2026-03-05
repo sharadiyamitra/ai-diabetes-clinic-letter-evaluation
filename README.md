@@ -133,7 +133,7 @@ If you use or adapt this work, please cite:
 - Author: Sharadiya Mitra
 - Title: AI-Generated Diabetes Clinic Letter Evaluation (Pilot)
 - Year: 2026
-- Repository: 
+- Repository: https://github.com/sharadiyamitra/ai-diabetes-clinic-letter-evaluation
 
 ## Contact
 For questions or collaboration, contact: sharadiyamitra@proton.me
